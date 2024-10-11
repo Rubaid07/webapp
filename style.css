@@ -1,0 +1,59 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(35, 69, 152);
+}
+form{
+    background-color: rgb(18, 222, 226);
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 2px rgba(0, 0, 0, .2);
+    border: 3px solid aqua;
+}
+#temp{
+    margin-top: 1rem;
+    padding: 8px;
+    width: 45%;
+}
+select{
+    padding: 8px;
+    width: 45%;
+}
+label{
+    font-weight: 600;
+}
+.div{
+    margin-top: 1rem;
+    text-align: center;
+}
+.submit{
+    margin-bottom: 1rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: rgb(36, 210, 36);
+    border: green;
+    cursor: pointer;
+    transition: .5s;
+}
+.submit:hover{
+    background: greenyellow;
+}
+span{
+    font-weight: bold;
+}
+@media (min-width:100px) and (max-width:500px) {
+    form{
+        padding: 1rem 1rem;
+    } 
+    .flex{
+        display: flex;
+        gap: 1rem;
+    }
+    select{
+        margin-top: 1rem;
+    }
+}
